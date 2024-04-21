@@ -34,7 +34,6 @@ const planData =[
     report: "Monthly Status Report",
     is_report_applicable:"false",
   },
-
   {
     name: "PRO",
     price : "$49/month",
