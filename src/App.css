@@ -1,0 +1,93 @@
+#root {
+  margin: 0 auto;
+
+}
+
+body {
+  background-color: dodgerblue !important;
+}
+
+
+.pricing-card ul {
+  list-style-type: none;
+}
+
+
+/* Flexbox styling for the container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+/* Styling for pricing cards */
+.pricing-card {
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 350px; 
+  text-align: left;
+
+}
+
+
+/* Header styling for pricing card */
+.pricing-card h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Price styling for pricing card */
+.pricing-card p {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+/* Styling for details list in pricing card */
+.pricing-card ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for each detail item in pricing card */
+.pricing-card li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.button {
+  display: block; /* Change display to block */
+  background-color: rgb(49, 155, 231) ;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  color: #fff;
+  margin: auto; 
+  width: 300px;
+
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+/* Fix text-muted styling */
+.pricing-card .text-muted {
+  color: #aaa !important; 
+}
+
+
+.divider {
+  border-top: 2px solid #ccc; 
+  width: 90%; 
+  margin: 0 auto; 
+  margin-bottom: 15px; 
+  margin-top: 15px; 
+}
