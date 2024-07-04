@@ -1,23 +1,20 @@
 #root {
   margin: 0 auto;
-
 }
 
 body {
   background-color: dodgerblue !important;
 }
 
-
 .pricing-card ul {
   list-style-type: none;
 }
-
 
 /* Flexbox styling for the container */
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
 }
 
 /* Styling for pricing cards */
@@ -26,14 +23,11 @@ body {
   margin: 10px;
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  width: 350px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
   text-align: left;
   transition: transform 0.3s ease-in-out;
-
-
 }
-
 
 /* Header styling for pricing card */
 .pricing-card h6 {
@@ -48,7 +42,6 @@ body {
   color: #333;
   margin-bottom: 20px;
   text-align: center;
-
 }
 
 /* Styling for details list in pricing card */
@@ -66,14 +59,13 @@ body {
 
 .button {
   display: block; /* Change display to block */
-  background-color: rgb(49, 155, 231) ;
+  background-color: rgb(49, 155, 231);
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: 20px;
   color: #fff;
-  margin: auto; 
+  margin: auto;
   width: 300px;
-
 }
 
 .button:hover {
@@ -82,16 +74,15 @@ body {
 
 /* Fix text-muted styling */
 .pricing-card .text-muted {
-  color: #aaa !important; 
+  color: #aaa !important;
 }
 
-
 .divider {
-  border-top: 2px solid #ccc; 
-  width: 90%; 
-  margin: 0 auto; 
-  margin-bottom: 15px; 
-  margin-top: 15px; 
+  border-top: 2px solid #ccc;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .pricing-card:hover {
